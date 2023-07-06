@@ -4,7 +4,7 @@ Gustify. is a weather app developed in Swift, utilizing various technologies suc
 
 ## Key Features
 
-- Real-time, location-aware weather updates for 10,000+ users.
+- Real-time, location-aware weather updates for 30+ users.
 - Integration of OpenWeatherMap and Core Location APIs, resulting in a 20% reduction in weather prediction errors.
 - Implementation of MVVM architecture, Fastlane, Jest/Detox, and MySQL to accelerate the release cycle by 30%.
 
