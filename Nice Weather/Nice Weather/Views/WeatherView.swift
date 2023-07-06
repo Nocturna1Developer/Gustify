@@ -1,6 +1,8 @@
+
 import SwiftUI
 
 struct WeatherView: View {
+    // Replace YOUR_API_KEY in WeatherManager with your own API key for the app to work
     var weather: ResponseBody
     
     var body: some View {
@@ -21,7 +23,7 @@ struct WeatherView: View {
                 VStack {
                     HStack {
                         VStack(spacing: 20) {
-                            Image(systemName: "sun.max")
+                            Image(systemName: "cloud")
                                 .font(.system(size: 40))
                             
                             Text("\(weather.weather[0].main)")
@@ -79,7 +81,7 @@ struct WeatherView: View {
                 .padding(.bottom, 20)
                 .foregroundColor(Color(hue: 0.656, saturation: 0.787, brightness: 0.354))
                 .background(.white)
-                .cornerRadius(20, corners: [.topLeft, .topRight])
+                //.cornerRadius(20, corners: [.topLeft, .topRight])
             }
         }
         .edgesIgnoringSafeArea(.bottom)

@@ -13,8 +13,7 @@ vertical stack (`VStack`). The `VStack` contains two text views: one for the nam
 and one for the value.
 
 `WeatherRow_Previews` is used to provide a preview of `WeatherRow` with hardcoded values.
-
---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
 */
 
 import SwiftUI

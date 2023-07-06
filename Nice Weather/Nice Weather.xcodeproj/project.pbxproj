@@ -72,10 +72,10 @@
 				0C3B6BD82A564E8E0066D0CB /* Views */,
 				0C3B6BD52A56452D0066D0CB /* Managers */,
 				0C3B6BE72A566A1B0066D0CB /* Components */,
-				0C3B6BCB2A563EF90066D0CB /* Assets.xcassets */,
+				0C3B6BCD2A563EF90066D0CB /* Preview Content */,
 				0C3B6BE52A5660930066D0CB /* Extensions.swift */,
 				0C3B6BC72A563EF70066D0CB /* Nice_WeatherApp.swift */,
-				0C3B6BCD2A563EF90066D0CB /* Preview Content */,
+				0C3B6BCB2A563EF90066D0CB /* Assets.xcassets */,
 			);
 			path = "Nice Weather";
 			sourceTree = "<group>";
