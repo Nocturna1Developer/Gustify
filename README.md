@@ -1,8 +1,6 @@
-# Nice Weather?
+# Gustify
 
-[![GitHub](https://img.shields.io/badge/GitHub-Nice--Weather--iOS-blue)](https://github.com/Nice-Weather-iOS)
-
-Nice Weather? is a weather app developed in Swift, utilizing various technologies such as Git, iOS SDK, Apple API, MVVM, Detox, and Fastlane.
+Gustify. is a weather app developed in Swift, utilizing various technologies such as Git, iOS SDK, Apple API, MVVM, Detox, and Fastlane.
 
 ## Key Features
 
