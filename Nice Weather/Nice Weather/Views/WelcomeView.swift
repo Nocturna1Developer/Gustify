@@ -1,26 +1,30 @@
-//
-//  WelcomeView.swift
-//  Nice Weather
-//
-//  Created by m on 7/5/23.
-//
-
 import SwiftUI
 import CoreLocationUI
 
 struct WelcomeView: View {
     @EnvironmentObject var locationManager: LocationManager
+
     var body: some View {
-        VStack{
+        VStack {
             VStack(spacing: 20) {
-                Text("Welcome to the weather App").bold().font(.title)
+                Text("Welcome to the Weather App")
+                    .bold()
+                    .font(.title)
                 
-                Text("Please share your current location if you want to see the weather in your current area").padding()
+                Text("Please share your current location to get the weather in your area")
+                    .padding()
             }
             .multilineTextAlignment(.center)
             .padding()
+
             
-            LocationButton()
+            // LocationButton from CoreLocationUI framework imported above, allows us to requestionLocation
+            LocationButton(.shareCurrentLocation) {
+                locationManager.requestLocation()
+            }
+            .cornerRadius(30)
+            .symbolVariant(.fill)
+            .foregroundColor(.white)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

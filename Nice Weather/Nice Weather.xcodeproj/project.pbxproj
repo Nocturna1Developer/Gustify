@@ -14,10 +14,12 @@
 		0C3B6BD72A5645420066D0CB /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B6BD62A5645420066D0CB /* LocationManager.swift */; };
 		0C3B6BDA2A564FF40066D0CB /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B6BD92A564FF40066D0CB /* WelcomeView.swift */; };
 		0C3B6BDC2A5655FC0066D0CB /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B6BDB2A5655FC0066D0CB /* LoadingView.swift */; };
+		0C3B6BDE2A5659160066D0CB /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B6BDD2A5659160066D0CB /* WeatherManager.swift */; };
+		0C3B6BE02A565D560066D0CB /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3B6BDF2A565D560066D0CB /* WeatherView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0C3B6BC42A563EF70066D0CB /* Nice Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nice Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3B6BC42A563EF70066D0CB /* Gustify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gustify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C3B6BC72A563EF70066D0CB /* Nice_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nice_WeatherApp.swift; sourceTree = "<group>"; };
 		0C3B6BC92A563EF70066D0CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C3B6BCB2A563EF90066D0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -25,6 +27,8 @@
 		0C3B6BD62A5645420066D0CB /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		0C3B6BD92A564FF40066D0CB /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		0C3B6BDB2A5655FC0066D0CB /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0C3B6BDD2A5659160066D0CB /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		0C3B6BDF2A565D560066D0CB /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +53,7 @@
 		0C3B6BC52A563EF70066D0CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C3B6BC42A563EF70066D0CB /* Nice Weather.app */,
+				0C3B6BC42A563EF70066D0CB /* Gustify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0C3B6BD62A5645420066D0CB /* LocationManager.swift */,
+				0C3B6BDD2A5659160066D0CB /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 				0C3B6BC92A563EF70066D0CB /* ContentView.swift */,
 				0C3B6BD92A564FF40066D0CB /* WelcomeView.swift */,
 				0C3B6BDB2A5655FC0066D0CB /* LoadingView.swift */,
+				0C3B6BDF2A565D560066D0CB /* WeatherView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -95,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0C3B6BC32A563EF70066D0CB /* Nice Weather */ = {
+		0C3B6BC32A563EF70066D0CB /* Gustify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C3B6BD22A563EF90066D0CB /* Build configuration list for PBXNativeTarget "Nice Weather" */;
+			buildConfigurationList = 0C3B6BD22A563EF90066D0CB /* Build configuration list for PBXNativeTarget "Gustify" */;
 			buildPhases = (
 				0C3B6BC02A563EF70066D0CB /* Sources */,
 				0C3B6BC12A563EF70066D0CB /* Frameworks */,
@@ -107,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = "Nice Weather";
+			name = Gustify;
 			productName = "Nice Weather";
-			productReference = 0C3B6BC42A563EF70066D0CB /* Nice Weather.app */;
+			productReference = 0C3B6BC42A563EF70066D0CB /* Gustify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,7 +146,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0C3B6BC32A563EF70066D0CB /* Nice Weather */,
+				0C3B6BC32A563EF70066D0CB /* Gustify */,
 			);
 		};
 /* End PBXProject section */
@@ -162,10 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C3B6BDE2A5659160066D0CB /* WeatherManager.swift in Sources */,
 				0C3B6BCA2A563EF70066D0CB /* ContentView.swift in Sources */,
 				0C3B6BC82A563EF70066D0CB /* Nice_WeatherApp.swift in Sources */,
 				0C3B6BD72A5645420066D0CB /* LocationManager.swift in Sources */,
 				0C3B6BDC2A5655FC0066D0CB /* LoadingView.swift in Sources */,
+				0C3B6BE02A565D560066D0CB /* WeatherView.swift in Sources */,
 				0C3B6BDA2A564FF40066D0CB /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0C3B6BD22A563EF90066D0CB /* Build configuration list for PBXNativeTarget "Nice Weather" */ = {
+		0C3B6BD22A563EF90066D0CB /* Build configuration list for PBXNativeTarget "Gustify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0C3B6BD32A563EF90066D0CB /* Debug */,
