@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "nocturnal7881_ios_app_icon_weather_app_astehtic_84d413d0-5295-45be-b4d2-34e269188ea5.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
